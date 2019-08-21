@@ -1,0 +1,92 @@
+# latex
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.blg
+*.synctex.gz
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+# *.ps
+# *.eps
+# *.pdf
+
+# python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+
+# c++
+# Prerequisites
+*.d
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+
+# tfrecord
+*.tfrecord
+
+# macOS
+.DS_Store
+
+# folders
+*.vscode/*
+*.texpadtmp/*
+*.idea/*
+
+# darknet
+*.weights
+checkpoint/VOC2012model-epoch_80_step_77192_loss_0.5260_lr_1e-05.meta
+checkpoint/VOC2012model-epoch_10_step_4102_loss_0.8525_lr_0.0001.data-00000-of-00001
+checkpoint/VOC2012model-epoch_10_step_4102_loss_0.8525_lr_0.0001.index
+checkpoint/VOC2012model-epoch_10_step_4102_loss_0.8525_lr_0.0001.jpg
+checkpoint/VOC2012model-epoch_10_step_4102_loss_0.8525_lr_0.0001.meta
+checkpoint/VOC2012model-epoch_50_step_48602_loss_0.5539_lr_3e-05.data-00000-of-00001
+checkpoint/VOC2012model-epoch_50_step_48602_loss_0.5539_lr_3e-05.index
+checkpoint/VOC2012model-epoch_50_step_48602_loss_0.5539_lr_3e-05.jpg
+checkpoint/VOC2012model-epoch_50_step_48602_loss_0.5539_lr_3e-05.meta
+checkpoint/VOC2012model-epoch_60_step_58132_loss_0.5369_lr_1e-05.data-00000-of-00001
+checkpoint/VOC2012model-epoch_60_step_58132_loss_0.5369_lr_1e-05.index
+checkpoint/VOC2012model-epoch_60_step_58132_loss_0.5369_lr_1e-05.jpg
+checkpoint/VOC2012model-epoch_60_step_58132_loss_0.5369_lr_1e-05.meta
+checkpoint/VOC2012model-epoch_70_step_67662_loss_0.5307_lr_1e-05.data-00000-of-00001
+checkpoint/VOC2012model-epoch_70_step_67662_loss_0.5307_lr_1e-05.index
+checkpoint/VOC2012model-epoch_70_step_67662_loss_0.5307_lr_1e-05.jpg
+checkpoint/VOC2012model-epoch_70_step_67662_loss_0.5307_lr_1e-05.meta
+checkpoint/VOC2012model-epoch_80_step_77192_loss_0.5260_lr_1e-05.data-00000-of-00001
+checkpoint/VOC2012model-epoch_80_step_77192_loss_0.5260_lr_1e-05.index
+checkpoint/VOC2012model-epoch_80_step_77192_loss_0.5260_lr_1e-05.jpg
+checkpoint/VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05.data-00000-of-00001
+checkpoint/VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05.index
+checkpoint/VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05.jpg
+checkpoint/VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05.meta
+
+data/darknet_weights/yolov3.ckpt.index
+data/darknet_weights/yolov3.ckpt.data-00000-of-00001
+data/darknet_weights/yolov3.ckpt.meta
