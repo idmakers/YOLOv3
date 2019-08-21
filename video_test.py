@@ -24,11 +24,11 @@ parser.add_argument("--new_size", nargs='*', type=int, default=[416, 416],
                     help="Resize the input image with `new_size`, size format: [width, height]")
 parser.add_argument("--letterbox_resize", type=lambda x: (str(x).lower() == 'true'), default=True,
                     help="Whether to use the letterbox resize.")
-parser.add_argument("--class_name_path", type=str, default="./data/my_data/data.names",
+parser.add_argument("--class_name_path", type=str, default="./data/my_data/VOC2012/data.names",
                     help="The path of the class names.")
-parser.add_argument("--restore_path", type=str, default="E:\OBJECT_DECTECT\yolo3\YOLOv3_TensorFlow\checkpoint\model-epoch_60_step_792_loss_1.8122_lr_1e-05",
+parser.add_argument("--restore_path", type=str, default="E:\OBJECT_DECTECT\yolo3\YOLOv3_TensorFlow\checkpoint\VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05",
                     help="The path of the weights to restore.")
-parser.add_argument("--save_video", type=lambda x: (str(x).lower() == 'true'), default=False,
+parser.add_argument("--save_video", type=lambda x: (str(x).lower() == 'true'), default=True,
                     help="Whether to save the video detection results.")
 args = parser.parse_args()
 
@@ -100,3 +100,4 @@ with tf.Session() as sess:
     vid.release()
     if args.save_video:
         videoWriter.release()
+#python video_test.py ./data/demo_data/video.mp4
