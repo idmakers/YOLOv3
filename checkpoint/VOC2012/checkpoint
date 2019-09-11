@@ -1,0 +1,6 @@
+model_checkpoint_path: "VOC2012model-epoch_90_step_15651_loss_0.7308_lr_1e-05"
+all_model_checkpoint_paths: "VOC2012model-epoch_50_step_8771_loss_0.8069_lr_3e-05"
+all_model_checkpoint_paths: "VOC2012model-epoch_60_step_10491_loss_0.7624_lr_1e-05"
+all_model_checkpoint_paths: "VOC2012model-epoch_70_step_12211_loss_0.7510_lr_1e-05"
+all_model_checkpoint_paths: "VOC2012model-epoch_80_step_13931_loss_0.7417_lr_1e-05"
+all_model_checkpoint_paths: "VOC2012model-epoch_90_step_15651_loss_0.7308_lr_1e-05"
