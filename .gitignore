@@ -151,3 +151,5 @@ checkpoint/VOC2012/VOC2012model-epoch_80_step_13931_loss_0.7417_lr_1e-05.index
 checkpoint/VOC2012/VOC2012model-epoch_80_step_13931_loss_0.7417_lr_1e-05.meta
 checkpoint/VOC2012/VOC2012model-epoch_90_step_15651_loss_0.7308_lr_1e-05.data-00000-of-00001
 checkpoint/VOC2012/VOC2012model-epoch_90_step_15651_loss_0.7308_lr_1e-05.meta
+data/logs/logs.zip
+data/logs/events.out.tfevents.1568213844.DESKTOP-LJ313C9
