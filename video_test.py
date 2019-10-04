@@ -26,7 +26,7 @@ parser.add_argument("--letterbox_resize", type=lambda x: (str(x).lower() == 'tru
                     help="Whether to use the letterbox resize.")
 parser.add_argument("--class_name_path", type=str, default="./data/my_data/VOC2012/data.names",
                     help="The path of the class names.")
-parser.add_argument("--restore_path", type=str, default="E:\OBJECT_DECTECT\yolo3\YOLOv3_TensorFlow\checkpoint\VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05",
+parser.add_argument("--restore_path", type=str, default="E:\OBJECT_DECTECT\yolo3\YOLOv3_TensorFlow\checkpoint\VOC2012\VOC2012best_model_Epoch_34_step_6019_mAP_0.5873_loss_9.0562_lr_3e-05",
                     help="The path of the weights to restore.")
 parser.add_argument("--save_video", type=lambda x: (str(x).lower() == 'true'), default=True,
                     help="Whether to save the video detection results.")

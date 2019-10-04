@@ -32,7 +32,7 @@ parser.add_argument("--letterbox_resize", type=lambda x: (str(x).lower() == 'tru
                     help="Whether to use the letterbox resize.")
 parser.add_argument("--class_name_path", type=str, default="./data/my_data/VOC2012/data.names",
                     help="The path of the class names.")
-parser.add_argument("--restore_path", type=str, default="E:\OBJECT_DECTECT\yolo3\YOLOv3_TensorFlow\checkpoint\VOC2012model-epoch_90_step_86722_loss_0.5231_lr_1e-05",
+parser.add_argument("--restore_path", type=str, default="checkpoint\VOC2012\VOC2012best_model_Epoch_18_step_3267_mAP_0.4928_loss_8.7101_lr_0.0001",
                     help="The path of the weights to restore.")
 args = parser.parse_args()
 
